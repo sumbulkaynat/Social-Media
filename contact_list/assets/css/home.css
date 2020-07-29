@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+#display{
+    width: 300px;
+    margin: auto;
+    font-family: sans-serif;
+    color: white;
+}
+
+#input{
+    position: relative;
+    left: 20px;
+    display:flex;
+    width: 250px;
+    margin: auto;
+}
+#input input{
+    border-radius: 5px;
+    width:100%;
+    margin-bottom: 5px;
+    
+}
+
+#input button{
+    width:100%;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+}
+
+.contact li{
+    display:flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 6px;
+    
+}
+
+.contact li:hover{
+    background-color: rgb(90, 39, 138);
+}
+.contact li i:hover{
+    color: red
+}
