@@ -1,6 +1,15 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    background-color: aqua;
+    margin-top: 10px;
+}
+
+#content{
+    border:2px solid black;
+    width: 320px;
+    margin: auto;
+    background-color: white;
 }
 
 #page-heading{
